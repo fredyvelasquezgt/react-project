@@ -1,4 +1,5 @@
-function Backdrop() {
+function Backdrop(props) {
+    props.onClick 
     return <div className="backdrop" />
 }
 
