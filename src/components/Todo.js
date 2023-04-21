@@ -4,8 +4,7 @@ function Todo(props) {
         console.log('clicked')
         console.log(props.text)
     }
-
-
+    
     return  <div className="card" >
     <h2>{props.text}</h2>
     <div className="actions">
