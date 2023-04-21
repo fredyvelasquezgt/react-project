@@ -1,10 +1,15 @@
+import {useState} from 'react';
+
 function Todo(props) {
 
+            //current state     //function change the value
+    const [modalIsOpen, setModalIsOpen] = useState(false)
+
+
     function deleteHandler() {
-        console.log('clicked')
-        console.log(props.text)
+        
     }
-    
+
     return  <div className="card" >
     <h2>{props.text}</h2>
     <div className="actions">
